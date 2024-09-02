@@ -3,10 +3,14 @@ const app = express();
 const dotenv = require('dotenv');
 const path=require('path');
 dotenv.config({path: path.join(__dirname,'config','config.env')})
+const connectDatabase = require('./config/connectDatabase');
 
 const signUp = require('./routes/signUp')
-const login = require('./routes/login')
+const login = require('./routes/login');
 
+connectDatabase();
+
+app.use(express.json())
 app.use('/api/v1/',login);
 app.use('/api/v1/',signUp);
 
