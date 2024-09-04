@@ -90,4 +90,6 @@ exports.getLogin=async(req,res,next)=>{
 
 **Endpoint:** `POST /api/v1/register`
 
+**Description:** This endpoint allows a new user to sign up by providing their username, email, and password.
+
 
