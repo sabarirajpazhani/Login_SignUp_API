@@ -3,7 +3,7 @@
 ![password-lock-concept-flat-developer-set-security-system-to-protect-account-data-and-user-lock-password-for-login-phone-application-flat-illustration-on-a-white-background-vector](https://github.com/user-attachments/assets/850d5688-46cd-4d69-a5db-f86f6a59a3c4)
 
 
-### User Authentication API
+## User Authentication API
 
 This section provides a comprehensive overview of the API endpoints designed for user authentication within the application. These endpoints are crucial for managing user access and security, allowing users to create accounts (SignUp) and securely log into the application (Login).
 
@@ -11,7 +11,7 @@ The SignUp endpoint enables new users to register by providing essential informa
 
 These endpoints form the backbone of user management within the application, ensuring that only authenticated users can access certain features or services.
 
-### **Login**
+## **Login**
 
 **Endpoint:** `POST /api/v1/login`
 
@@ -86,7 +86,7 @@ exports.getLogin=async(req,res,next)=>{
    }
   ```
 
-### **SignUp**
+## **SignUp**
 
 **Endpoint:** `POST /api/v1/register`
 
@@ -149,3 +149,23 @@ exports.getSignUp=async(req,res,next)=>{
     "message": "Internal Server Error"
    }
   ```
+
+## Database Connection
+
+This section explains how the application connects to the MongoDB database using Mongoose. The database connection is configured in the `connectDatabase.js` file and utilizes environment variables to securely manage sensitive information such as the database URL.
+
+### Mongoose Connection
+
+The application uses Mongoose, an Object Data Modeling (ODM) library for MongoDB, to manage the connection to the database. Below is the code that sets up the connection:
+
+```javascript
+const mongoose = require('mongoose');
+
+const connectDatabase = () => {
+    mongoose.connect(process.env.DB_URL).then((con) => {
+        console.log("Mongoose connected to host: " + con.connection.host);
+    });
+};
+
+module.exports = connectDatabase;
+```
