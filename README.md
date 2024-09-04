@@ -119,4 +119,33 @@ exports.getSignUp=async(req,res,next)=>{
 }
 ```
 
+**Request:**
+**Body:**
+  ```json
+{
+    "username": "username",
+    "email": "user@example.com",
+    "password": "userpassword"
+}
+```
 
+**Response**
+ - **Success (201):**
+  ```javascript
+    {
+    "message": "User Registered Successfully"
+    }
+  ```
+ - **Conflict (409):**
+  ```javascript
+  {
+    "message": "User already Exists"
+  }
+  ```
+ 
+ - **Internal Server Error (500):**
+  ```javascript
+   {
+    "message": "Internal Server Error"
+   }
+  ```
