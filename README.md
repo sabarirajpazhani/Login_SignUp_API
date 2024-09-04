@@ -51,10 +51,20 @@ exports.getLogin=async(req,res,next)=>{
 ```
 
 **Request:**
-- **Body:**
+**Body:**
   ```json
   {
       "email": "user@example.com",
       "password": "userpassword"
   }
   ```
+
+**Response**
+ - **Success (200):**
+  ```javascript
+    {
+        "success": true,
+        "message": "Login Successful!!"
+    }
+  ```
+
