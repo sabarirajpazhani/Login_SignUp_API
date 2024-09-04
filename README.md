@@ -187,3 +187,13 @@ DB_URL=mongodb://localhost:27017/Login-SignUp
 - `PORT`: Specifies the port number on which the server will run. In this case, the server will run on port `8000`.
 - `NODE_ENV`: Defines the environment in which the application is running, such as `Development` or `Production.`
 - `DB_URL`: Contains the URL for the MongoDB database. This URL points to a local MongoDB instance named `Login-SignUp`.
+
+## API Testing Visuals
+
+**1. Register**
+![image](https://github.com/user-attachments/assets/38b16fe5-b393-4036-beb1-9d730136f0a1)
+
+**2. Login**
+![image](https://github.com/user-attachments/assets/397dcf32-b422-4112-a1a8-968515342a54)
+
+
