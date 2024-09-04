@@ -237,4 +237,17 @@ When developing and testing APIs, it's crucial to use reliable tools to ensure t
   <img src="https://seeklogo.com/images/I/insomnia-logo-A35E09EB19-seeklogo.com.png" alt="insomnia-logo" width="200"/>
 </div>
 
+## Usage
+
+To test your API, you can use any of these tools to:
+
+1. **Send Requests**: Configure and send various types of HTTP requests (GET, POST, PUT, DELETE, etc.) to your API endpoints.
+2. **Analyze Responses**: View and analyze the responses from your API, including status codes, response times, and data.
+3. **Automate Testing**: Some tools offer automation features to run tests and monitor API performance over time.
+
+### Examples
+
+- **Thunder Client**: Open Visual Studio Code, install the Thunder Client extension, and use the UI to create and send requests.
+- **Postman**: Launch Postman, create a new request, configure the endpoint and method, and send the request to view the response.
+- **Insomnia**: Open Insomnia, create a new request, specify the API endpoint and parameters, and view the results.
 
