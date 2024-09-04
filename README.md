@@ -13,4 +13,4 @@ These endpoints form the backbone of user management within the application, ens
 
 ### **Login**
 
-**Endpoint:** `POST /api/login`
+**Endpoint:** `/api/v1/login`
