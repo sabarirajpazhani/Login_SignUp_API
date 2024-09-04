@@ -84,6 +84,10 @@ exports.getLogin=async(req,res,next)=>{
    {
     "message": "Internal Server Error"
    }
+  ```
 
+### **SignUp**
+
+**Endpoint:** `POST /api/v1/register`
 
 
