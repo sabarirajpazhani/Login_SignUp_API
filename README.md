@@ -68,9 +68,9 @@ exports.getLogin=async(req,res,next)=>{
     }
   ```
  - **User Not Found (400):**
-   ```javascript
+  ```javascript
    {
     "message": "User Not Exists. So Please SignUp"
    }
-   ```
+  ```
 
