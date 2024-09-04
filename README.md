@@ -169,3 +169,5 @@ const connectDatabase = () => {
 
 module.exports = connectDatabase;
 ```
+- `mongoose.connect(process.env.DB_URL)`: This line connects to the MongoDB database using the URL specified in the environment variable `DB_URL`.
+- `con.connection.host`: This outputs the host of the connected MongoDB server to the console, providing confirmation that the connection was successful.
