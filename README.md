@@ -1,4 +1,4 @@
-## API Documentation
+## API Documentation for Login and SignUp page
 
 ![password-lock-concept-flat-developer-set-security-system-to-protect-account-data-and-user-lock-password-for-login-phone-application-flat-illustration-on-a-white-background-vector](https://github.com/user-attachments/assets/850d5688-46cd-4d69-a5db-f86f6a59a3c4)
 
