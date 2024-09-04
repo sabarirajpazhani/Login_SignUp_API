@@ -16,3 +16,12 @@ These endpoints form the backbone of user management within the application, ens
 **Endpoint:** `/api/v1/login`
 
 **Description:** This endpoint allows a user to log in by providing their email and password.
+
+**Request:**
+- **Body:**
+  ```json
+  {
+      "email": "user@example.com",
+      "password": "userpassword"
+  }
+  ```
