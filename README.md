@@ -196,4 +196,45 @@ DB_URL=mongodb://localhost:27017/Login-SignUp
 **2. Login**
 ![image](https://github.com/user-attachments/assets/397dcf32-b422-4112-a1a8-968515342a54)
 
+## MongoDB Visuals
+
+![image](https://github.com/user-attachments/assets/7706e511-d4f0-45a0-891c-017cb9db0a06)
+
+# API Testing Tools
+
+When developing and testing APIs, it's crucial to use reliable tools to ensure that your endpoints function as expected. Here are some popular API testing tools that you can use:
+
+## 1. Thunder Client
+
+**Thunder Client** is a lightweight REST API client extension for Visual Studio Code. It provides a clean and user-friendly interface for sending HTTP requests and analyzing responses.
+
+- **Installation**: Available as a Visual Studio Code extension.
+- **Website**: [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a4ae7be2-6284-4898-83ac-313dc85ee238" alt="insomnia-logo" width="200"/>
+</div>
+
+## 2. Postman API
+
+**Postman** is one of the most widely used API testing tools. It offers a comprehensive suite of features for designing, testing, and managing APIs.
+
+- **Installation**: Available as a standalone application for Windows, macOS, and Linux.
+- **Website**: [Postman](https://www.postman.com/)
+
+<div align="center">
+  <img src="https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png" alt="insomnia-logo" width="200"/>
+</div>
+
+## 3. Insomnia
+
+**Insomnia** is another powerful REST API client that allows you to test and debug APIs with ease. It provides a simple interface and features for creating and managing requests.
+
+- **Installation**: Available as a standalone application for Windows, macOS, and Linux.
+- **Website**: [Insomnia](https://insomnia.rest/)
+
+<div align="center">
+  <img src="https://seeklogo.com/images/I/insomnia-logo-A35E09EB19-seeklogo.com.png" alt="insomnia-logo" width="200"/>
+</div>
+
 
