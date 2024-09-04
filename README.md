@@ -73,4 +73,17 @@ exports.getLogin=async(req,res,next)=>{
     "message": "User Not Exists. So Please SignUp"
    }
   ```
+ - **Invalid Password (400):**
+  ```javascript
+   {
+    "message": "Invalid Password"
+   }
+  ```
+ - **Internal Server Error (500):**
+  ```javascript
+   {
+    "message": "Internal Server Error"
+   }
+
+
 
